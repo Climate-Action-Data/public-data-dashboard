@@ -15,7 +15,7 @@ import { brandPrimary, whiteSecondary } from '@/styles/Button'
 import { cardSection } from '@/styles/Section'
 import styles from './page.module.css'
 import './globals.css'
-import { Header } from '@/components/organisms/Header'
+import Header from '@/components/organisms/Header'
 
 const overmind = createOvermind(config)
 // eslint-disable-next-line @typescript-eslint/quotes
