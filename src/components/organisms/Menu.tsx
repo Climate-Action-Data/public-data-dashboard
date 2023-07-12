@@ -3,7 +3,7 @@ import Logo from './../../assets/logo.png'
 import { Box, Flex, SlideFade, useDisclosure, Image, Center } from '@chakra-ui/react'
 import { Link } from '@chakra-ui/next-js'
 import { BookmarkIcon, HelpIcon, HomeIcon, WebRedirectIcon } from '@/components/atoms/icons'
-import { DarkModeSwitch } from "../atoms/DarkModeSwitch/DarkModeSwitch"
+import { DarkModeSwitch } from '../atoms/DarkModeSwitch/DarkModeSwitch'
 import { usePathname } from 'next/navigation'
 
 export const Menu = (): React.JSX.Element => {
@@ -12,7 +12,7 @@ export const Menu = (): React.JSX.Element => {
 
     return (
         <Box className="menu">
-            <Flex height={"100%"} justifyContent={`space-between`} alignItems={`center`}>
+            <Flex height={`100%`} justifyContent={`space-between`} alignItems={`center`}>
                 <Flex alignItems={`center`}>
                     {/* <Button position={`sticky`} top={0} colorScheme="gray" width={`56px`} height={`56px`} backgroundColor={isOpen ? `gray.200` : `gray.500`} onClick={onToggle}>
                         <HamburgerIcon color={`white`} />
